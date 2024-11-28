@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/contactus.css">
+    <link rel="script" type="text/javascript" href="/js/script.js">
+    <style>
+        .banner img{
+        width: 1280px;
+         /* height: 250px; */
+        filter: brightness(60%);
+        }
+    </style>
+    <title>Contact Us</title>
+</head>
+<body>
+  <form action="contactus.php" method="POST"></form>
+  <form action="conctactfield.php" method="POST"></form>
+     <header class="navbar">
+     <nav>
+      <div class="menu">
+        <!-- <div class="logo">
+          <img src="kipepeo-safaris-logo.png" alt="Kipepeo Safaris logo">
+        </div> -->
+        <ul>
+          <li><a href="/html/index.html">Home</a></li>
+          <li><a href="/html/destinations.html">Destinations</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+     </nav>
+    </header>
+
+    <div class="banner">
+        <img src="/img/contactus.jpg" alt="contactusbanner">
+       <div class="text-overlay">
+        <h2> CONTACT US</h2>
+       </div>
+    </div>
+  <div class="form-group" style="width: 50%; float: left; padding-left: 2%; padding-top: 2%;"> 
+    <form action="#" method="post">
+        <h2>Enquiry Form</h2>
+        <br>
+        <h3>How do we get in touch?</h3>
+        
+     <label for="name">Your Name:</label> <br> 
+     <input type="text" id="name" name="firstName" required> <br> 
+
+     <label for="contact">Your Contact Number:</label> <br> 
+     <input type="tel" id="contactNumber" name="contactNumber" required> <br>
+
+     <label for="email">Your email address:</label> <br> 
+     <input type="email" id="email" name="email" required> <br> 
+
+     <label for="name">Country of Residence:</label> <br> 
+     <input type="text" id="residenceCountry" name="residenceCountry" required> <br>
+     <br>
+
+     <h3>What are you interested in?</h3>
+      <input type="checkbox" id="coast" name="coast" value="coast">
+      <label for="coast">The Kenyan Coast</label><br>
+      <input type="checkbox" id="maasaimara" name="maasaimara" value="maasaimara">
+      <label for="maasaimara">Maasai Mara National Reserve</label><br>
+      <input type="checkbox" id="tsavo" name="tsavo" value="tsavo">
+      <label for="tsavo">Tsavo National Park </label><br>
+      <input type="checkbox" id="amboseli" name="amboseli" value="amboseli">
+      <label for="amboseli">Amboseli National Reserve</label><br>
+      <input type="checkbox" id="lNakuru" name="lNakuru" value="lNakuru">
+      <label for="lNakuru">L. Nakuru</label><br>
+      <input type="checkbox" id="mtKenya" name="mtKenya" value="mtKenya">
+      <label for="mtKenya">Mt. Kenya Hiking</label><br>
+      <input type="checkbox" id="nairobiNP" name="nairobiNP" value="nairobiNP">
+      <label for="nairobiNP">Nairobi National Park</label><br>
+      <input type="checkbox" id="olPejetaCon" name="olPejetaCon" value="olPejetaCon">
+      <label for="olPejetaCon">Ol Pejeta Conservancy</label><br>
+      <input type="checkbox" id="hellsGate" name="hellsGate" value="hellsGate">
+      <label for="hellsGate">Hell's Gate</label><br>
+      <br>
+      
+
+      <h3>When would you like to travel? </h3>
+      <label for="name">Date of the trip:</label> <br> 
+      <input type="date" id="date" name="date" required> <br>
+
+      <label for="name">Number of nights:</label> <br> 
+      <input type="text" id="noNights" name="noNights" required> <br> 
+      <br>
+
+
+      <h3>Who is coming on your trip? </h3>
+      <label for="name">Number of adults:</label> <br> 
+      <input type="text" id="date" name="date" required> <br>
+
+      <label for="name">Number of children below 12:</label> <br> 
+      <input type="text" id="noNights" name="noNights" required> <br> 
+
+      <label for="name">Number of infants below 2:</label> <br> 
+      <input type="text" id="noNights" name="noNights" required> <br> 
+      <br>
+
+      <h3>Do you have a budget per person for your trip?</h3>
+      <label for="budget">Your Budget:</label><br>
+      <select id="budget" name="budget" required>
+        <option value="" disabled selected hidden>Select an option</option>
+        <option value="basic"> Basic </option>
+        <option value="standard"> Standard </option>
+        <option value="superior"> Superior </option>
+        <option value="luxury"> Luxury </option>
+      </select>
+      <br>
+      <br>
+
+      <h3>What are you interested in?</h3>
+      <input type="checkbox" id="wildlife" name="wildlife" value="wildlife">
+      <label for="wildlife">Wildlife</label><br>
+      <input type="checkbox" id="birdwatching" name="birdwatching" value="birdwatching">
+      <label for="birdwatching">Birdwatching</label><br>
+      <input type="checkbox" id="beach" name="beach" value="beach">
+      <label for="beach">Beach</label><br>
+      <input type="checkbox" id="diving" name="diving" value="diving">
+      <label for="diving">Diving and Snorkelling</label><br>
+      <input type="checkbox" id="adventure" name="adventure" value="adventure">
+      <label for="adventure">Adventure</label><br>
+      <input type="checkbox" id="relaxation" name="relaxation" value="relaxation">
+      <label for="relaxation">Relaxation</label><br>
+      <input type="checkbox" id="artsculture" name="artsculture" value="artsculture">
+      <label for="artsculture">Arts & Culture</label><br>
+      <input type="checkbox" id="history" name="history" value="history">
+      <label for="history">History</label><br>
+      <input type="checkbox" id="photograhy" name="photograhy" value="photograhy">
+      <label for="photography">Photography</label><br>
+      <input type="checkbox" id="cuisine" name="cuisine" value="cuisine">
+      <label for="cuisine">Cuisine</label><br>
+      <input type="checkbox" id="hikingandclimbing" name="hikingandclimbing" value="hikingandclimbing">
+      <label for="hikingandclimbing">Hiking and Climbing</label><br>
+      <input type="checkbox" id="honeymoon" name="honeymoon" value="honeymoon">
+      <label for="honeymoon">Honeymoon</label><br>
+      <br>
+      
+      <h2>Anything else you would like us to know?</h2>
+      <textarea id="addmessage" name="addmessage" rows="9" cols="50" required></textarea>
+      <br>
+      <button type="submit" 
+      style="color:black;width:80px;height:48px;background-color: rgb(250, 145, 145) ;position:relative;top:30px;">
+      Submit</button>
+      <br>
+      <br>
+      <br>
+
+    </form>
+
+  </div>
+
+    <div class="contactInfo" style="width: 50%; float: right; padding-left: 3%; padding-top: 2%;">
+       
+        <h2>Contact Us</h2>
+       <h3>Nairobi Region:</h3> 
+        <p>+254 722 510 304<br>
+        523 Riara Rd, Nairobi, Kenya<br>
+        P.O Box 7469, Nairobi<br></p>
+        <br>
+
+        <h3>Rift Valley:</h3>
+        <p>+254 729 567 432  <br>
+        213 Savanna Road, Nakuru, Kenya<br>
+        P.O Box 1738, Nakuru<br></p>
+        <br>
+
+        <h3>Coast</h3>
+        <p>+254 706 337 564<br>
+        569 Moi Avenue, Mombasa, Kenya<br>
+        P.O. Box 4321, Mombasa<br></p> 
+        <br>
+
+        <h3>Central:</h3>
+        <p>+254 723 586 491<br>
+        876 Pinecrest Drive, Kiambu<br>
+        P.O Box 1206, Kiambu<br></p> 
+
+        <br>
+    </div>
+<div>
+      <footer class="footer">
+    <p>Copyright © 2024 .All Rights Reserved By Kipepeo Safaris</p>
+    <a href="#">Terms and Conditions</a>
+    <a href="#">Privacy Policy</a>
+      <a href="https://www.facebook.com/" target="_blank">
+    <img src="/img/facebook.png" alt="Facebook Icon">
+  </a>
+
+  <a href="https://twitter.com/" target="_blank">
+    <img src="/img/twitter.png" alt="Twitter Icon">
+  </a>
+
+  <a href="https://www.instagram.com/" target="_blank">
+    <img src="/img/instagram.png" alt="Instagram Icon">
+  </a>
+  </footer>
+</div>
+
+
+    <script>
+    window.addEventListener("load", function() {
+    var bannerImage = document.querySelector(".banner img");
+    bannerImage.classList.add("loaded");
+    });
+  </script>
+
+
+</body>
+</html>
+
+    

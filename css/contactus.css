@@ -1,0 +1,119 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Poppins', sans-serif;
+
+}
+.navbar{
+	width: 100%;
+	height: 80px;
+	background-color: #fee;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #000;
+}
+.logo {
+	float: left;
+	padding-left: 60px;
+}
+.menu ul{
+	display: flex;
+	align-items: center;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 12px;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+.menu ul li a:hover{
+	border-bottom: 4px solid #000;
+	transition: 0.4s;
+} 
+
+.footer{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer a{
+	text-decoration: none;
+	color: green;
+	font-size: 18px;
+	font-weight: bold;
+}
+.footer a:hover{
+	text-decoration: underline;
+	transition: 0.4s;
+}
+
+.footer img{
+	width: 30px;
+}
+
+.input{
+	width:600px;
+	height:35px;
+}
+#budget{
+	width:200px;
+	height:35px;
+}
+
+.form-group{
+background-color:rgb(255, 229, 221);
+}
+.contactInfo{
+	background-color:rgb(79, 122, 79);
+	color: #ffffff;
+	height:1312px;
+	
+}
+button{
+	font-weight: 800;
+}
+
+button :hover{
+	text-decoration: solid;
+	/* transition: 0.5s; */
+    box-shadow: none;
+    transform: translate(8px 8px)
+}
+
+
+.text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100px; 
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px; 
+    padding-bottom: 250px;
+	font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: large;
+
+}
+
+.banner img {
+  /* Set the initial opacity to 0, and then use a CSS transition to fade it in */
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.banner img.loaded {
+  /* Set the opacity to 1 when the .loaded class is added */
+  opacity: 1;
+}
